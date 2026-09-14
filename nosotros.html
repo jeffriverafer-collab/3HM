@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Quiénes somos: historia, experiencia y valores de la marca.">
+  <title>Nosotros | Tekno Clone</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+<header class="header">
+  <div class="topbar">
+    <div class="container topbar-inner">
+      <span>Soluciones para tus proyectos</span>
+      <a href="#contacto">Contáctanos</a>
+    </div>
+  </div>
+  <div class="nav container">
+    <a class="logo" href="index.html"><img src="img/logo.png" alt="3HM Chemical"></a>
+    <button class="menu-toggle" aria-label="Abrir menú">☰</button>
+    <nav class="menu" id="menu">
+      <a href="productos.html">Productos</a>
+      <a href="soluciones.html">Soluciones</a>
+      <a href="nosotros.html">Nosotros</a>
+    </nav>
+    <button class="search-btn" id="openSearch" aria-label="Buscar">⌕</button>
+  </div>
+</header>
+
+<main>
+<section class="hero page-hero">
+  <div class="hero-overlay"></div>
+  <div class="container hero-content">
+    <p class="eyebrow">NOSOTROS</p>
+    <h1>Especializados en acabados desde hace más de 70 años</h1>
+    <p>Historia, experiencia y propuesta de valor de la marca.</p>
+  </div>
+</section>
+
+<section class="about">
+  <div class="about-image"></div>
+  <div class="about-copy">
+    <p class="eyebrow">NUESTRA HISTORIA</p>
+    <h2>Fabricación y distribución de productos químicos</h2>
+    <p>Una sección institucional para presentar la historia, experiencia y propuesta de valor de la marca, desde sus inicios hasta la actualidad.</p>
+    <a class="btn btn-light" href="productos.html">Conoce nuestros productos</a>
+  </div>
+</section>
+
+<section class="stats">
+  <div class="container stats-grid">
+    <div class="stat-item"><strong>+70</strong><span>años de experiencia</span></div>
+    <div class="stat-item"><strong>+29</strong><span>productos en catálogo</span></div>
+    <div class="stat-item"><strong>+500</strong><span>puntos de venta</span></div>
+    <div class="stat-item"><strong>4</strong><span>líneas de producto</span></div>
+  </div>
+</section>
+
+<section class="section">
+  <div class="container">
+    <div class="section-heading">
+      <p class="eyebrow">NUESTROS VALORES</p>
+      <h2>Lo que nos define</h2>
+    </div>
+    <div class="values-grid">
+      <div class="value-card"><h3>Calidad</h3><p>Formulaciones consistentes, probadas para un desempeño profesional.</p></div>
+      <div class="value-card"><h3>Confianza</h3><p>Relaciones de largo plazo con distribuidores y ferreterías.</p></div>
+      <div class="value-card"><h3>Innovación</h3><p>Actualizamos nuestras líneas para responder a nuevas necesidades.</p></div>
+      <div class="value-card"><h3>Servicio</h3><p>Acompañamiento cercano antes, durante y después de la compra.</p></div>
+    </div>
+  </div>
+</section>
+
+<section class="contact" id="contacto">
+  <div class="container contact-inner">
+    <div><p class="eyebrow">¿NECESITAS AYUDA?</p><h2>Hablemos de tu proyecto</h2></div>
+    <a class="btn btn-light" href="mailto:contacto@ejemplo.com">Contáctanos</a>
+  </div>
+</section>
+</main>
+
+<footer class="footer">
+  <div class="container footer-grid">
+    <div><a class="logo footer-logo" href="index.html"><img src="img/logo-white.png" alt="3HM Chemical"></a><p>Soluciones para acabados y proyectos.</p></div>
+    <div><h4>Productos</h4><a href="productos.html#automotriz">Automotriz</a><a href="productos.html#madera">Madera</a><a href="productos.html#hogar">Hogar</a><a href="productos.html#construccion">Construcción</a></div>
+    <div><h4>Explora</h4><a href="soluciones.html">Soluciones</a><a href="nosotros.html">Nosotros</a></div>
+    <div><h4>Contacto</h4><a href="#contacto">Escríbenos</a><a href="mailto:contacto@ejemplo.com">Correo</a></div>
+  </div>
+  <div class="footer-bottom">© 2026 Tekno Clone — Proyecto educativo de recreación visual.</div>
+</footer>
+
+<div class="search-modal" id="searchModal">
+  <div class="search-box">
+    <button class="close-search" id="closeSearch">×</button>
+    <p class="eyebrow">BUSCAR</p>
+    <h2>¿Qué estás buscando?</h2>
+    <div class="search-field"><input id="searchInput" type="search" placeholder="Escribe una palabra..."><button id="searchGo">Buscar</button></div>
+    <p id="searchResult"></p>
+  </div>
+</div>
+<script src="js/script.js"></script>
+</body>
+</html>

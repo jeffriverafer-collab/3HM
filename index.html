@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Réplica visual educativa inspirada en una web de productos para acabados.">
+  <title>Tekno Clone | Acabados y soluciones</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+<header class="header">
+  <div class="topbar">
+    <div class="container topbar-inner">
+      <span>Soluciones para tus proyectos</span>
+      <a href="#contacto">Contáctanos</a>
+    </div>
+  </div>
+  <div class="nav container">
+    <a class="logo" href="index.html"><img src="img/logo.png" alt="3HM Chemical"></a>
+    <button class="menu-toggle" aria-label="Abrir menú">☰</button>
+    <nav class="menu" id="menu">
+      <a href="productos.html">Productos</a>
+      <a href="soluciones.html">Soluciones</a>
+      <a href="nosotros.html">Nosotros</a>
+    </nav>
+    <button class="search-btn" id="openSearch" aria-label="Buscar">⌕</button>
+  </div>
+</header>
+
+<main>
+<section class="hero">
+  <div class="hero-overlay"></div>
+  <div class="container hero-content">
+    <p class="eyebrow">ACABADOS PARA CADA PROYECTO</p>
+    <h1>Ideas que transforman<br>tus espacios</h1>
+    <p>Encuentra productos y soluciones para madera, pared, metal y mucho más.</p>
+    <a class="btn btn-light" href="productos.html">Conoce nuestros productos</a>
+  </div>
+</section>
+
+<section class="section products">
+  <div class="container">
+    <div class="section-heading">
+      <p class="eyebrow">PRODUCTOS</p>
+      <h2>Todo para tus proyectos</h2>
+      <p>Explora nuestras principales categorías de productos.</p>
+    </div>
+    <div class="category-grid">
+      <a class="category-card" href="productos.html#automotriz">
+        <div class="category-image image-metal"></div><div class="category-body"><h3>Automotriz y pintura</h3><span>Ver productos →</span></div>
+      </a>
+      <a class="category-card" href="productos.html#madera">
+        <div class="category-image image-madera"></div><div class="category-body"><h3>Madera</h3><span>Ver productos →</span></div>
+      </a>
+      <a class="category-card" href="productos.html#hogar">
+        <div class="category-image image-hogar"></div><div class="category-body"><h3>Hogar y limpieza</h3><span>Ver productos →</span></div>
+      </a>
+      <a class="category-card" href="productos.html#construccion">
+        <div class="category-image image-pared"></div><div class="category-body"><h3>Construcción</h3><span>Ver productos →</span></div>
+      </a>
+    </div>
+    <a class="btn btn-dark" href="productos.html" style="margin-top:40px">Ver todos los productos</a>
+  </div>
+</section>
+
+<section class="solutions">
+  <div class="container solution-wrap">
+    <div class="solution-copy">
+      <p class="eyebrow">NUESTRAS SOLUCIONES</p>
+      <h2>El acabado adecuado hace la diferencia</h2>
+      <p>Productos pensados para ayudarte a conseguir resultados profesionales en diferentes superficies y aplicaciones.</p>
+      <a class="btn btn-dark" href="soluciones.html">Explorar soluciones</a>
+    </div>
+    <div class="solution-visual"></div>
+  </div>
+</section>
+
+<section class="about">
+  <div class="about-image"></div>
+  <div class="about-copy">
+    <p class="eyebrow">NOSOTROS</p>
+    <h2>Especializados en acabados desde hace más de 70 años</h2>
+    <p>Una sección institucional para presentar la historia, experiencia y propuesta de valor de la marca.</p>
+    <a class="btn btn-light" href="nosotros.html">Saber más</a>
+  </div>
+</section>
+
+<section class="contact" id="contacto">
+  <div class="container contact-inner">
+    <div><p class="eyebrow">¿NECESITAS AYUDA?</p><h2>Hablemos de tu proyecto</h2></div>
+    <a class="btn btn-light" href="mailto:contacto@ejemplo.com">Contáctanos</a>
+  </div>
+</section>
+</main>
+
+<footer class="footer">
+  <div class="container footer-grid">
+    <div><a class="logo footer-logo" href="index.html"><img src="img/logo-white.png" alt="3HM Chemical"></a><p>Soluciones para acabados y proyectos.</p></div>
+    <div><h4>Productos</h4><a href="productos.html#automotriz">Automotriz</a><a href="productos.html#madera">Madera</a><a href="productos.html#hogar">Hogar</a><a href="productos.html#construccion">Construcción</a></div>
+    <div><h4>Explora</h4><a href="soluciones.html">Soluciones</a><a href="nosotros.html">Nosotros</a></div>
+    <div><h4>Contacto</h4><a href="#contacto">Escríbenos</a><a href="mailto:contacto@ejemplo.com">Correo</a></div>
+  </div>
+  <div class="footer-bottom">© 2026 Tekno Clone — Proyecto educativo de recreación visual.</div>
+</footer>
+
+<div class="search-modal" id="searchModal">
+  <div class="search-box">
+    <button class="close-search" id="closeSearch">×</button>
+    <p class="eyebrow">BUSCAR</p>
+    <h2>¿Qué estás buscando?</h2>
+    <div class="search-field"><input id="searchInput" type="search" placeholder="Escribe una palabra..."><button id="searchGo">Buscar</button></div>
+    <p id="searchResult"></p>
+  </div>
+</div>
+<script src="js/script.js"></script>
+</body>
+</html>
