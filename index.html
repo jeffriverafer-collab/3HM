@@ -32,12 +32,26 @@
 
 <main>
 <section class="hero">
+  <div class="hero-track" id="heroTrack">
+    <div class="hero-slide contain" style="background-image:url('img/hero-carrusel-1.png')"></div>
+    <div class="hero-slide" style="background-image:url('img/hero-carrusel-2.jpg')"></div>
+    <div class="hero-slide" style="background-image:url('img/hero-carrusel-3.jpg')"></div>
+    <div class="hero-slide" style="background-image:url('img/hero-carrusel-4.jpg')"></div>
+  </div>
   <div class="hero-overlay"></div>
   <div class="container hero-content">
     <p class="eyebrow">ACABADOS PARA CADA PROYECTO</p>
     <h1>Ideas que transforman<br>tus espacios</h1>
     <p>Encuentra productos y soluciones para madera, pared, metal y mucho más.</p>
     <a class="btn btn-light" href="productos.html">Conoce nuestros productos</a>
+  </div>
+  <button class="hero-nav hero-prev" id="heroPrev" aria-label="Imagen anterior">‹</button>
+  <button class="hero-nav hero-next" id="heroNext" aria-label="Siguiente imagen">›</button>
+  <div class="hero-dots" id="heroDots">
+    <button class="hero-dot active" data-index="0" aria-label="Ir a la imagen 1"></button>
+    <button class="hero-dot" data-index="1" aria-label="Ir a la imagen 2"></button>
+    <button class="hero-dot" data-index="2" aria-label="Ir a la imagen 3"></button>
+    <button class="hero-dot" data-index="3" aria-label="Ir a la imagen 4"></button>
   </div>
 </section>
 
