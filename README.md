@@ -1,4 +1,4 @@
-# TEKNO-CLONE
+# 3HM CHEMICAL
 
 Réplica visual educativa inspirada en la estructura pública de una web de productos para acabados.
 
